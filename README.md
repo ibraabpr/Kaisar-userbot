@@ -18,8 +18,8 @@
   <a href="https://github.com/kenkansaja/Kaisar-userbot/contributors">
     <img src="https://img.shields.io/github/contributors/kenkansaja/Kaisar-userbot?label=CONTRIBUTORS&style=badge&logo=github"width="200">
    </a>
-  <a href="https://github.com/kenkansaja/Kaisar-userbot/issues-pr">
-    <img src="https://img.shields.io/github/issues-pr/kenkansaja/Kaisar-userbot?label=ISSUES&style=plastic&logo=github"width="200">
+  <a href="https://github.com/kenkansaja/Kaisar-userbot/issues">
+    <img src="https://img.shields.io/github/issues/kenkansaja/Kaisar-userbot?label=ISSUES&style=plastic&logo=github"width="200">
   </a>  
   </p>  
 
