@@ -34,7 +34,7 @@
 </p>
 <p align="center">
 <a href="MODULES"><img src="https://img.shields.io/badge/MODULES-146-red?style=plastic&logo=github&logoColor=yellow"width="190" height="35"/></a>
-<a href="https://hub.docker.com/r/jokokendil/ambohju1"> <img src="https://img.shields.io/docker/image-size/jokokendil/ambohju1/buster?label=docker%20image%20size&logo=docker&style=for-the-badge" /></a>
+<a href="https://hub.docker.com/r/jokokendil/ambohju1"> <img src="https://img.shields.io/docker/image-size/jokokendil/ambohju1/buster?color=blue&label=DOCKERFILE&style=plastic&logo=docker&logoColor=yellow"width="200" height="35" /></a>
 </p>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-eBu3-f3vzW0/V3E8UnYXsfI/AAAAAAAADHI/lJrPAoLSE70aO0F3W9fruZ8O-qJY76MSwCLcB/s1600/gambar-gerak-gif-chip-and-dale-terbaru.gif" style="width:100%">
