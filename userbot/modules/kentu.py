@@ -181,8 +181,8 @@ async def _(event):
             await asyncio.sleep(animation_interval)
 
             await event.edit(animation_chars[i % 13])
-            await sleep(5)
-            await event.delete()
+           
+           
 
 # KEN KAN 
 # KEN KAN 
