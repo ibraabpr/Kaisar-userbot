@@ -1,5 +1,5 @@
 # Kaisar USERBOT
-FROM jokokendil/ambohju:buster
+FROM jokokendil/ambohju1:buster
 
 #
 # Kaisar
