@@ -33,7 +33,7 @@
 <a href="BOT VESI"><img src="https://img.shields.io/badge/BOT VERSI-v5.0-blue?style=plastic&logo=github&logoColor=yellow"width="200" height="40"/></a>
 </p>
 <p align="center">
-<a href="MODULES"><img src="https://img.shields.io/badge/MODULES-146-red?style=plastic&logo=github&logoColor=yellow"width="190" height="35"/></a>
+<a href="MODULES"><img src="https://img.shields.io/badge/MODULES-147-red?style=plastic&logo=github&logoColor=yellow"width="190" height="35"/></a>
 <a href="https://hub.docker.com/r/jokokendil/ambohju1"> <img src="https://img.shields.io/docker/image-size/jokokendil/ambohju1/buster?color=blue&label=DOCKERFILE&style=plastic&logo=docker&logoColor=yellow"width="200" height="35" /></a>
 </p>
 <p align="center">
@@ -74,7 +74,7 @@ Repo Yang Dibuat <a href="https://t.me/kenkanasw"><img src="https://img.shields.
 
   > Pertama Dapatkan API_ID & API_HASH Di my.telegram.org atau di t.me/Kenkanrobot (Wajib)
 
-  > Dapatkan String Session Di Replit pilih t bukan p atau bisa juga di bot @Stringdurhakabot pilih telethon (Wajib)
+  > Dapatkan String Session Di Replit pilih t bukan p  (Wajib)
 
   > Next Tekan Tombol Deploy Dibawah
 
