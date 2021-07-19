@@ -19,7 +19,6 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-from . import hmention, progress, ytsearch
 
 
 @bot.on(admin_cmd(pattern="yt(a|v)(?: |$)(.*)", outgoing=True))
