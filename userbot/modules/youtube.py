@@ -237,17 +237,14 @@ async def kakashi(event):
 
 
 
-CMD_HELP.update(
-    {
-        "Youtube" : "**Plugin :** `ytdl` \
-    \n\n • **Sintaks :** `.yta link` \
-    \n • **Fungsi : **__mengunduh audio dari tautan yang diberikan (Mendukung semua situs yang mendukung youtube-dl)__ \
-    \n\n • **Sintaks : **`.ytv link` \
-    \n • **Fungsi : **__mengunduh video dari tautan yang diberikan (Mendukung semua situs yang mendukung youtube-dl)__ \
-    \n\n • **Sintaks : **`.yts query`/`.yts count query` \
-    \n • **Fungsi : **__Mengambil hasil penelusuran youtube dengan penayangan dan durasi tanpa perlu menghitung hasil secara default mengambil 10 hasil__ \
-    \n\n • **Sintaks : **`.insta` <link> \
-    \n • **Fungsi : **__Mengunduh video dari tautan instagram yang diberikan__ \
-    "
-    }
-)
+CMD_HELP.update({
+    "Youtube":
+    "`.yta`\
+    \nPenjelasan: mengunduh audio dari tautan yang diberikan (Mendukung semua situs yang mendukung youtube-dl)\
+    \n`.ytv`\
+    \nPenjelasan: mengunduh video dari tautan yang diberikan (Mendukung semua situs yang mendukung youtube-dl)\
+    \n`.yts`\
+    \nPenjelasan: Mengambil hasil penelusuran youtube dengan penayangan dan durasi tanpa perlu menghitung hasil secara default mengambil 10 hasil\
+    \n`.insta`\
+    \nPenjelasan: __Mengunduh video dari tautan instagram yang diberikan"
+})
