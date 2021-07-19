@@ -19,7 +19,7 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-
+from userbot import CMD_HELP
 
 @bot.on(admin_cmd(pattern="yt(a|v)(?: |$)(.*)", outgoing=True))
 @bot.on(sudo_cmd(pattern="yt(a|v)(?: |$)(.*)", allow_sudo=True))
