@@ -22,7 +22,8 @@ from youtube_dl.utils import (
 from userbot.events import register
 from userbot import CMD_HELP
 
-@register(pattern="yt(a|v)(?: |$)(.*)", outgoing=True)
+@register(outgoing=True, pattern=".yta|ytv")
+
 async def download_video(v_url):
     """ For .ytdl command, download media from YouTube and many other sites. """
     url = v_url.pattern_match.group(2)
@@ -165,7 +166,7 @@ async def download_video(v_url):
     await v_url.delete()
 
 
-@register(pattern="yts(?: |$)(\d*)? ?(.*)", command="yts")
+@register(outgoing=True, pattern=".yts")
 async def yt_search(event):
     if event.fwd_from:
         return
@@ -193,7 +194,7 @@ async def yt_search(event):
     await edit_or_reply(video_q, reply_text)
 
 
-@register(pattern="insta (.*)")
+@register(outgoing=True, pattern=".insta")
 async def kakashi(event):
     if event.fwd_from:
         return
