@@ -96,10 +96,9 @@ async def get_font_file(client, channel_id):
     return await event.client.download_media(font_file_message)
 
 
-CMD_HELP.update(
-    {
-        "logo :\n"
-        " `.logo` <reply to pic + text> or <text>\
-        \n↳: Membuat logo dengan teks yang diberikan. Jika membalas gambar membuat logo yang lain mendapat BG acak."
-    }
-)
+
+CMD_HELP.update({
+    "LOGO":
+    "`.logo`\
+\nUsage: Membuat logo dengan teks yang diberikan. Jika membalas gambar membuat logo yang lain mendapat BG acak.""
+})
