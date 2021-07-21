@@ -100,5 +100,5 @@ async def get_font_file(client, channel_id):
 CMD_HELP.update({
     "LOGO":
     "`.logo`\
-\nUsage: Membuat logo dengan teks yang diberikan. Jika membalas gambar membuat logo yang lain mendapat BG acak.""
+\nUsage: Membuat logo dengan teks yang diberikan. Jika membalas gambar membuat logo yang lain mendapat BG acak."
 })
