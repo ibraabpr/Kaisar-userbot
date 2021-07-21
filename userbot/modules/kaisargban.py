@@ -206,7 +206,7 @@ async def gunben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        f"┏━━━━━━━༻❁༺━━━━━━━┓\n    ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┣━━━━━━━༻❁༺━━━━━━━┛\n┣ 💌 **PERINTAH KAISAR :**\n┣ ↪ `{ ALIVE_NAME}`\n┣━━━━━━━━━━━━━━━━━━━━\n┣ 👥 **PENGGUNA :** [{user.first_name}](tg://user?id={user.id})\n┣ 🏃 **AKSI :** `Membatalkan Global Banned`\n┗━━━━━━━༻❁༺━━━━━━━┛")
+        f"┏━━━━━━༻❁༺━━━━━━┓\n  ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┣━━━━━━༻❁༺━━━━━━┛\n┣ 💌 **PERINTAH KAISAR :**\n┣ ↪ `{ ALIVE_NAME}`\n┣━━━━━━━━━━━━━━━━━━\n┣ 👥 **PENGGUNA :** [{user.first_name}](tg://user?id={user.id})\n┣ 🏃 **AKSI :** `Membatalkan Global Banned`\n┗━━━━━━༻❁༺━━━━━━┛")
 
 
 
