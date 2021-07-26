@@ -10,7 +10,7 @@
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/kenkansaja/Kaisar-userbot/repo-size">
+<a href="https://github.com/kenkansaja/Kaisar-userbot/">
     <img src="https://img.shields.io/github/repo-size/kenkansaja/Kaisar-userbot?color=red&label=REPO%20SIZE&logo=github&logoColor=red&style=plastic"width="200" height="35">
   </a>
 </p>
