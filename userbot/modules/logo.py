@@ -22,10 +22,10 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 @register(outgoing=True, pattern="^.logo(?: |$)(.*)")
 async def logo_gen(event):
-    xx = await event.edit("`Processing.....`")
+    xx = await event.edit("`Permintaan sedang di proses.....`")
     name = event.pattern_match.group(1)
     if not name:
-        await xx.edit("`Give a name too!`")
+        await xx.edit("`Berikan saya nama untuk logo!`")
     bg_, font_ = "", ""
     if event.reply_to_msg_id:
         temp = await event.get_reply_message()
@@ -83,7 +83,7 @@ async def logo_gen(event):
     y = (image_height - h) / 2
     draw.text((x, y), name, font=font, fill="white",
               stroke_width=strke, stroke_fill="black")
-    flnme = f"geez.png"
+    flnme = f"Kaisar.png"
     img.save(flnme, "png")
     await xx.edit("`Done!`")
     if os.path.exists(flnme):
