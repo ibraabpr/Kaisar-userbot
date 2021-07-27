@@ -387,7 +387,7 @@ with bot:
             api_hash=API_HASH).start(
             bot_token=BOT_TOKEN)
          
-        
+        kaisarlogo = INLINE_PIC
         dugmeler = CMD_HELP
         me = bot.get_me()
         uid = me.id
@@ -406,14 +406,13 @@ with bot:
             query = event.text
             if event.query.user_id == uid and query.startswith("@UserButt"):
                 buttons = paginate_help(0, dugmeler, "helpme")
-                result = builder.article(
-                    "Harap Gunakan .help Untuk Perintah",
-                    text="{}┣ 🧩 **MODUL TERSEDIA :** `{}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛".format(
+                result = builder.photo(
+                    photo=kaisarlogo,
+                    caption="{}┣ 🧩 **MODUL TERSEDIA :** `{}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛".format(
                         f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┣━━━━━━༻❁༺━━━━━━┛\n",
                         len(dugmeler),                   
                      ),
-                    buttons=buttons,
-                    link_preview=False,
+                    buttons=buttons
                 )
            
             elif query.startswith("tb_btn"):
