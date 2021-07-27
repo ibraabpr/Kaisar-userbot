@@ -407,8 +407,8 @@ with bot:
             if event.query.user_id == uid and query.startswith("@UserButt"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
-                    photo=kaisarlogo,
-                    caption="{}┣ 🧩 **MODUL TERSEDIA :** `{}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛".format(
+                    "Harap Gunakan .help Untuk Perintah",
+                    text="{}┣ 🧩 **MODUL TERSEDIA :** `{}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛".format(
                         f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┣━━━━━━༻❁༺━━━━━━┛\n",
                         len(dugmeler),                   
                      ),
