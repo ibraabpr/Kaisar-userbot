@@ -83,8 +83,8 @@ async def logo_gen(event):
     y = (image_height - h) / 2
     draw.text((x, y), name, font=font, fill="yellow",
               stroke_width=strke, stroke_fill="black")
-    flnme = f"Kaisar.jpg"
-    img.save(flnme, "jpg")
+    flnme = f"Kaisar.png"
+    img.save(flnme, "png")
     await xx.edit("`Selesai!`")
     if os.path.exists(flnme):
         await event.client.send_file(
