@@ -1507,7 +1507,7 @@ async def scam(event):
         await event.edit("`Tidak Valid`")
         return
     try:
-        if (scam_time > 300):
+        if scam_time > 300:
             await event.delete()
             async with event.client.action(event.chat_id, scam_action):
                 await sleep(scam_time)

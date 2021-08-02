@@ -2722,155 +2722,155 @@ async def _(event):
     await event.edit("Casting spell...")
     await asyncio.sleep(2)
     x = (random.randrange(1, 76))
-    if (x == 1):
+    if x == 1:
         await event.edit("**Crucio**")
-    if (x == 2):
+    if x == 2:
         await event.edit("**Sectumsempra**")
-    if (x == 3):
+    if x == 3:
         await event.edit("**Morsmordre**")
-    if (x == 4):
+    if x == 4:
         await event.edit("**Tarantallegra**")
-    if (x == 5):
+    if x == 5:
         await event.edit("*Fiendfyre Curse**")
-    if (x == 6):
+    if x == 6:
         await event.edit("**Petrificus Totalus**")
-    if (x == 7):
+    if x == 7:
         await event.edit("**Furnunculus**")
-    if (x == 8):
+    if x == 8:
         await event.edit("**Rictusempra**")
-    if (x == 9):
+    if x == 9:
         await event.edit("**Deletrius**")
-    if (x == 10):
+    if x == 10:
         await event.edit("*Incarcarous**")
-    if (x == 11):
+    if x == 11:
         await event.edit("**Confringo**")
-    if (x == 12):
+    if x == 12:
         await event.edit("**Densaugeo**")
-    if (x == 13):
+    if x == 13:
         await event.edit("**Mobilicorpus**")
-    if (x == 14):
+    if x == 14:
         await event.edit("**Liberacorpus**")
-    if (x == 15):
+    if x == 15:
         await event.edit("**Levicorpus**")
-    if (x == 16):
+    if x == 16:
         await event.edit("**Deprimo**")
-    if (x == 17):
+    if x == 17:
         await event.edit("**Sonorus**")
-    if (x == 18):
+    if x == 18:
         await event.edit("**Duro**")
-    if (x == 19):
+    if x == 19:
         await event.edit("**Legilimens**")
-    if (x == 20):
+    if x == 20:
         await event.edit("**Expulso**")
-    if (x == 21):
+    if x == 21:
         await event.edit("**Oppugno**")
-    if (x == 22):
+    if x == 22:
         await event.edit("**Fidelius**")
-    if (x == 23):
+    if x == 23:
         await event.edit("**Imperio**")
-    if (x == 24):
+    if x == 24:
         await event.edit("**Piertotum Locomotor**")
-    if (x == 25):
+    if x == 25:
         await event.edit("**Aparecium**")
-    if (x == 26):
+    if x == 26:
         await event.edit("**Defodio**")
-    if (x == 27):
+    if x == 27:
         await event.edit("**Descendo**")
-    if (x == 28):
+    if x == 28:
         await event.edit("**Specialis Revelio**")
-    if (x == 29):
+    if x == 29:
         await event.edit("**Protego Totalum**")
-    if (x == 30):
+    if x == 30:
         await event.edit("**Meteolojinx Recanto**")
-    if (x == 31):
+    if x == 31:
         await event.edit("**Cave Inimicum**")
-    if (x == 32):
+    if x == 32:
         await event.edit("**Impedimenta**")
-    if (x == 33):
+    if x == 33:
         await event.edit("**Obscuro**")
-    if (x == 34):
+    if x == 34:
         await event.edit("**Reducto**")
-    if (x == 35):
+    if x == 35:
         await event.edit("**Anapneo**")
-    if (x == 36):
+    if x == 36:
         await event.edit("**Locomotor Mortis**")
-    if (x == 37):
+    if x == 37:
         await event.edit("**Geminio**")
-    if (x == 38):
+    if x == 38:
         await event.edit("** Aguamenti**")
-    if (x == 39):
+    if x == 39:
         await event.edit("**Avada Kedavra**")
-    if (x == 40):
+    if x == 40:
         await event.edit("**Repelo Muggletum**")
-    if (x == 41):
+    if x == 41:
         await event.edit("**Stupefy**")
-    if (x == 42):
+    if x == 42:
         await event.edit("**Diffindo**")
-    if (x == 43):
+    if x == 43:
         await event.edit("**Erecto**")
-    if (x == 44):
+    if x == 44:
         await event.edit("**Finite Incantatem**")
-    if (x == 45):
+    if x == 45:
         await event.edit("**Prior Incantato**")
-    if (x == 46):
+    if x == 46:
         await event.edit("**Expulso**")
-    if (x == 47):
+    if x == 47:
         await event.edit("**Incendio**")
-    if (x == 48):
+    if x == 48:
         await event.edit("**Nox**")
-    if (x == 49):
+    if x == 49:
         await event.edit("**Colloportus**")
-    if (x == 50):
+    if x == 50:
         await event.edit("**Evanesco**")
-    if (x == 51):
+    if x == 51:
         await event.edit("**Ferula**")
-    if (x == 52):
+    if x == 52:
         await event.edit("**Expecto Patronum**")
-    if (x == 53):
+    if x == 53:
         await event.edit("**Confundo**")
-    if (x == 54):
+    if x == 54:
         await event.edit("**Relashio**")
-    if (x == 55):
+    if x == 55:
         await event.edit("**Tergeo**")
-    if (x == 56):
+    if x == 56:
         await event.edit("**Episkey**")
-    if (x == 57):
+    if x == 57:
         await event.edit("**Oblivate**")
-    if (x == 58):
+    if x == 58:
         await event.edit("**Expelliarmus**")
-    if (x == 59):
+    if x == 59:
         await event.edit("*Silencio**")
-    if (x == 60):
+    if x == 60:
         await event.edit("**Muffliato**")
-    if (x == 61):
+    if x == 61:
         await event.edit("**Protego**")
-    if (x == 62):
+    if x == 62:
         await event.edit("**Expulso**")
-    if (x == 63):
+    if x == 63:
         await event.edit("**Riddikulus**")
-    if (x == 64):
+    if x == 64:
         await event.edit("**Pack**")
-    if (x == 65):
+    if x == 65:
         await event.edit("**Reducio**")
-    if (x == 66):
+    if x == 66:
         await event.edit("**Reparo**")
-    if (x == 67):
+    if x == 67:
         await event.edit("**Lumos**")
-    if (x == 68):
+    if x == 68:
         await event.edit("**Orchideous**")
-    if (x == 69):
+    if x == 69:
         await event.edit("**Portus**")
-    if (x == 70):
+    if x == 70:
         await event.edit("**Scourgify**")
-    if (x == 71):
+    if x == 71:
         await event.edit("**Wingardium Leviosa**")
-    if (x == 71):
+    if x == 71:
         await event.edit("**Impervius**")
-    if (x == 73):
+    if x == 73:
         await event.edit("**Engorgio**")
-    if (x == 74):
+    if x == 74:
         await event.edit("**Glisseo**")
-    if (x == 75):
+    if x == 75:
         await event.edit("**Accio**")
 
 
