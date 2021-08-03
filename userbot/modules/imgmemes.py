@@ -2,7 +2,6 @@
 import os
 import re
 import asyncio
-import os
 from PIL import Image, ImageDraw, ImageFont
 from wget import download
 import requests

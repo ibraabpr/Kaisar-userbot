@@ -13,7 +13,6 @@ import asyncio
 import sys
 import os
 import io
-import sys
 from userbot import ALIVE_NAME, BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
 from userbot.events import register
 from userbot.utils import time_formatter
