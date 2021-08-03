@@ -158,17 +158,17 @@ async def ccbin(event):
 
 CMD_HELP.update({
     "ccarder": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.gencc`\
-\n↳ : Menghasilkan CC Palsu.\
+\n : Menghasilkan CC Palsu.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ccheck` <query>\
-\n↳ : Memeriksa Apakah CC yang Diberikan Aktif atau Tidak.\
+\n : Memeriksa Apakah CC yang Diberikan Aktif atau Tidak.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.iban` <kueri>\
-\n↳ : Memeriksa Apakah ID IBAN yang Diberikan Aktif atau Tidak.\
+\n : Memeriksa Apakah ID IBAN yang Diberikan Aktif atau Tidak.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.key` <kueri>\
-\n↳ : Memeriksa status kunci yang diprobid.\
+\n : Memeriksa status kunci yang diprobid.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.vbv` <kueri>\
-\n↳ : Memeriksa status vbv dari kartu yang diberikan.\
+\n : Memeriksa status vbv dari kartu yang diberikan.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.bin` <kueri>\
-\n↳ : Memeriksa apakah bin yang diberikan valid atau tidak.\
+\n : Memeriksa apakah bin yang diberikan valid atau tidak.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ccbin` <bin>\
-\n↳ : Menghasilkan CC dari bin yang diberikan."
+\n : Menghasilkan CC dari bin yang diberikan."
 })
