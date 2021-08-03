@@ -13,11 +13,9 @@ from userbot import (  # noqa pylint: disable=unused-import isort:skip
     ALIVE_NAME,
     COUNT_MSG,
     ISAFK,
-    PM_AUTO_BAN,
     USERS,
     PM_AUTO_BAN,
-    bot,
-)
+    bot)
 from userbot.events import register
 
 # ========================= CONSTANTS ============================
